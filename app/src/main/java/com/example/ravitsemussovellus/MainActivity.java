@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
 
                 @Override
                 public void onClick (View v) {
-                    // Kysely-activityn (näkymän) avaus
-                    Intent myIntent = new Intent(getApplicationContext(),
-                            KyselyActivity.class);
+                    // Raportit-activityn (näkymän) avaus
+                    Intent myIntent = new Intent(MainActivity.this,
+                            RaportitActivity.class);
                     startActivity(myIntent);
                 }
         });
