@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Ravitsemussovellus</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_raportit">RaportitActivity</string>
+    <string name="tab_text_1">Päivänäkymä</string>
+    <string name="tab_text_2">Viikkonäkymä</string>
+    <string name="title_activity_kysely">KyselyActivity</string>
 </resources>
