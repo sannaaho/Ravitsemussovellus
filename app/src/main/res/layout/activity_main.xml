@@ -2,8 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:paddingLeft="16dp"
-    android:paddingRight="16dp" >
+    android:paddingRight="16dp">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,7 +15,7 @@
     <ImageView
         android:id="@+id/logo"
         android:src="@drawable/logo"
-        android:layout_width="130dp"
+        android:layout_width="match_parent"
         android:layout_height="130dp"
         android:layout_gravity="top|left" />
 
@@ -21,16 +23,22 @@
             android:id="@+id/btnKysely"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:layout_centerInParent="true"
-            android:text="Kyselyt" />
+            android:layout_marginTop="50dp"
+            android:background="#01A9DB"
+            android:text="Kysely"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
 
 
         <Button
             android:id="@+id/btnRaportit"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:layout_centerInParent="true"
-            android:text="Raportit" />
+            android:layout_marginTop="50dp"
+            android:background="#86B404"
+            android:text="Tulokset"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
     </LinearLayout>
 
 </RelativeLayout>
