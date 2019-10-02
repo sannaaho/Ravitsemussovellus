@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_marginTop="50dp"
-            android:background="#01A9DB"
+            android:background="@drawable/rounded_button"
             android:text="Kysely"
             android:textColor="#FFFFFF"
             android:textSize="18sp" />
@@ -36,7 +36,7 @@
             android:layout_height="100dp"
             android:layout_marginTop="50dp"
             android:layout_marginBottom="50dp"
-            android:background="#86B404"
+            android:background="@drawable/rounded_button"
             android:text="Tulokset"
             android:textColor="#FFFFFF"
             android:textSize="18sp" />
@@ -47,8 +47,6 @@
             android:layout_height="match_parent"
             android:layout_gravity="bottom|center"
             android:src="@drawable/logot" />
-
-        //vielä loput imageviewit ja asettelut logoille tähän
 
     </LinearLayout>
 
